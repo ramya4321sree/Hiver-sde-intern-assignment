@@ -1,0 +1,50 @@
+You are evaluating an AI customer-support reply for an AppleSupport-style customer service task.
+
+For each example, evaluate ONLY the customer message and the retrieved historical support reply provided.
+
+Do not judge whether the reply is grammatically perfect. Judge whether it is useful and appropriate for the customer's issue.
+
+Give scores from 1 to 5:
+
+1. RELEVANCE
+5 = Directly addresses the customer's issue.
+4 = Mostly addresses the issue, with minor gaps.
+3 = Somewhat related but does not fully address the issue.
+2 = Weakly related.
+1 = Unrelated to the customer's issue.
+
+2. HELPFULNESS
+5 = Gives a clear, useful next step or resolution.
+4 = Helpful but could be more complete.
+3 = Somewhat helpful but limited.
+2 = Provides little practical help.
+1 = Not helpful.
+
+3. GROUNDEDNESS
+5 = Consistent with the historical support context and does not invent unsupported facts.
+4 = Mostly grounded with minor assumptions.
+3 = Partially grounded.
+2 = Contains questionable unsupported claims.
+1 = Clearly unsupported or contradictory.
+
+4. OVERALL
+5 = Excellent support response.
+4 = Good response with minor issues.
+3 = Acceptable but needs improvement.
+2 = Poor response.
+1 = Very poor or inappropriate response.
+
+Also provide a short reason explaining the scores.
+
+Return ONLY valid JSON in exactly this format:
+
+{
+  "relevance": 1-5,
+  "helpfulness": 1-5,
+  "groundedness": 1-5,
+  "overall": 1-5,
+  "reason": "short explanation"
+}
+
+Do not add markdown.
+Do not add additional fields.

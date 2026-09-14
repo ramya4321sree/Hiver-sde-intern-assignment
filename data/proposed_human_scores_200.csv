@@ -1,0 +1,201 @@
+tweet_id,llm_relevance,llm_helpfulness,llm_groundedness,llm_overall,proposed_human_relevance,proposed_human_helpfulness,proposed_human_groundedness,proposed_human_overall,reason
+2371264,5,4,5,4,5,4,5,4,Directly points to phishing-email guidance matching the reported issue.
+652789,2,2,4,2,2,2,4,2,No prior context available; reply's clarifying question is generic and doesn't address a specific issue.
+998993,2,2,3,2,2,2,3,2,Message is vague; reply guesses at phishing without clear evidence from the message.
+1963164,5,4,4,4,5,4,4,4,Reply's power/port advice directly matches the accessory-not-supported message.
+2305481,2,2,4,2,2,2,4,2,Reply is a generic request to DM without engaging with the specific Live Photo issue described.
+619432,2,2,3,2,1,1,2,1,"Message is a general/joking comment, not a personal support request; reply misreads it as one."
+2193378,5,4,4,4,5,4,4,4,Workaround link matches the well-known autocorrect 'I' bug referenced in the message.
+521348,1,1,2,1,1,1,2,1,"Reply asks about screen recording, unrelated to the Bluetooth car connectivity issue described."
+1327360,1,1,2,1,1,1,2,1,"Reply asks about screen recording, unrelated to the AirPods Bluetooth audio dropout issue."
+2710940,5,5,5,5,5,5,5,5,Reply appropriately closes out a simple thanks message.
+301132,4,3,4,3,3,3,4,3,"Acknowledges the iMessage issue and offers to continue in DM, but gives no concrete step yet."
+522968,3,2,4,3,3,2,4,3,Generic acknowledgment of the Maps issue without addressing specifics.
+1468299,1,1,2,1,1,1,2,1,"Reply assumes the issue is resolved with 'You're welcome', but the message is a help request."
+796536,1,1,1,1,1,1,1,1,"Reply addresses a 'No SIM' message, unrelated to the battery drain complaint."
+2746104,3,2,4,3,3,2,4,3,"Generic on-topic follow-up question about a login/sync issue, no direct fix offered."
+1535045,4,3,4,3,3,3,4,3,"On-topic acknowledgment of the activation error, defers troubleshooting to DM."
+2922718,3,3,3,3,3,3,3,3,Partially addresses the update-related behavior change but doesn't cover the keyboard-light detail.
+806476,2,2,3,2,2,2,3,2,Message fragment lacks context; reply's iTunes update suggestion may not match the underlying issue.
+1149988,3,3,4,3,3,3,4,3,Generic article suggestion plausibly related to the backup/transfer issue described.
+322054,3,3,3,3,3,3,3,3,Assumes a specific known issue without message specifying which bug is meant.
+1760465,1,1,2,1,1,1,2,1,Reply calls this a phishing email; message is a genuine product question about a battery case.
+1581392,3,2,4,3,3,2,4,3,Generic acknowledgment; no specific issue is stated in the fragment to verify against.
+941450,4,3,4,3,4,3,4,3,Relevant follow-up question about iOS version for the video-audio hiss issue.
+1020325,2,1,3,2,2,1,3,2,Asking for the customer's country doesn't meaningfully address an app-crashing complaint.
+1625434,1,1,2,1,1,1,2,1,"Reply assumes the issue is resolved ('You're welcome'), but the message asks if it's been solved."
+1404859,4,3,4,3,3,3,4,3,"Relevant acknowledgment of the battery complaint, asks for more device detail."
+613046,4,3,4,4,4,3,4,4,Relevant request for macOS version to troubleshoot the Safari audio issue.
+168795,3,2,4,3,3,2,4,3,Generic acknowledgment of the forced-update complaint.
+1394002,1,1,2,1,1,1,2,1,"Reply assumes the battery issue is now resolved, but the message describes an ongoing problem."
+1986856,5,4,4,4,5,4,4,4,Correct workaround link for the letter-I autocorrect bug described.
+1122193,3,2,3,3,3,2,3,3,"Assumes the issue relates to updating, a plausible but unconfirmed read of a vague message."
+1218365,4,3,4,3,4,3,4,3,Plausible continuation of a phishing-related thread implied by the fragment.
+1977272,2,2,2,2,2,2,3,2,Reply assumes a 'Music issue' with no supporting evidence from the vague message and attached image.
+1455368,4,3,4,4,4,4,4,4,Correctly acknowledges a prior DM was sent regarding the update issue.
+2052786,5,3,4,4,5,4,4,4,Relevant clarifying questions directly about the missing music mix.
+2050839,4,3,4,3,4,3,4,3,Relevant request for more detail on the recurring restart issue.
+1134084,2,2,3,2,2,2,3,2,Reply's WhatsApp-notification fix doesn't clearly match the stated slowness/freezing/keyboard complaints.
+1707703,5,4,4,4,5,4,4,4,Correct workaround link for the letter-I autocorrect bug.
+946674,4,3,4,3,4,3,4,3,Relevant request for device/iOS info to diagnose the charging behavior.
+588194,5,5,4,5,5,5,4,5,"Directly explains why the Apple Cash feature isn't showing yet, with a concrete timeline."
+1582180,4,3,4,3,4,3,4,3,Appropriately redirects an Upgrade Program order question to the correct support team.
+2300385,4,3,4,3,4,3,4,3,Relevant article pointer for the iTunes account country-change issue.
+236811,1,1,3,1,1,1,3,1,Message has no text content to act on; reply's guess at a performance issue is unsupported.
+1565223,2,2,2,2,2,2,2,2,"Message doesn't specify an issue, so the workaround link's relevance can't be confirmed."
+403553,5,4,4,4,5,4,4,4,"Personalized, relevant follow-up referencing prior battery troubleshooting."
+2015439,3,2,3,2,3,2,3,2,Acknowledges the refund request but doesn't engage with the frustration or offer a concrete path.
+994501,3,2,3,3,3,2,3,3,Plausible generic continuation of an update-related thread fragment.
+1014374,2,2,3,2,2,2,3,2,Message has no specific detail; can't verify the workaround link matches the right issue.
+2622641,5,4,4,4,5,4,4,4,Appropriately answers the Apple Music feature-timing question by pointing to newsroom updates.
+159588,3,3,4,3,3,3,4,3,"Reasonably redirects a trade-in question to the Sales team, though trade-in isn't quite 'new purchase'."
+2206972,1,1,2,1,1,1,2,1,"Reply treats the issue as resolved and closes out, but the message is actively asking for battery advice."
+1429739,4,4,4,4,4,4,4,4,Relevant troubleshooting steps for the network-search issue with IMEI already checked.
+2133513,5,5,5,5,5,5,5,5,Appropriately closes out a simple thanks message.
+356806,3,2,3,2,3,2,3,2,Acknowledges the keyboard/capitalization question but the follow-up (asking country) doesn't build on it.
+1000219,5,5,5,5,5,5,5,5,Directly and correctly answers how to check battery health with exact menu steps.
+2054539,4,3,4,3,3,3,4,3,Relevant acknowledgment of the battery complaint tied to the recent update.
+2544486,2,2,4,2,2,2,4,2,Appropriately notes the language limitation but doesn't address the underlying photo-recovery issue.
+795778,3,3,3,3,3,3,3,3,"Generic update-troubleshooting article, plausible but not clearly tied to the vague complaint."
+1761290,4,3,4,3,4,3,4,3,Relevant wireless-update troubleshooting article for a connectivity complaint.
+1016769,4,3,4,3,4,3,4,3,Relevant diagnostic question about restart and iOS version for the ghosted photos issue.
+1836635,2,2,2,2,2,2,3,2,Generic 'future update' workaround link doesn't clearly correspond to a Bluetooth interference issue.
+2948210,3,3,3,3,3,3,3,3,Update suggestion is plausible but not clearly matched to the iCloud storage complaint.
+149993,3,3,4,3,3,3,4,3,Reasonable generic follow-up (backup check) given no specific issue is stated.
+928077,1,1,2,1,1,1,2,1,"Reply asks about notification behavior, unrelated to the activity-history/backup question asked."
+2493851,5,5,5,5,5,5,5,5,Appropriately closes out a simple thank-you message.
+1986902,1,1,2,1,1,1,2,1,"Reply asks about a 'vertical line' on screen, unrelated to the bulging-battery replacement question."
+2280272,5,5,5,5,5,5,5,5,Directly confirms the relevant iOS fix for the autocorrect symbol bug with a link.
+164244,1,1,2,1,1,1,2,1,Reply's closing tone doesn't engage with the complaint about unusable purchased ringtones.
+582779,3,2,4,3,3,2,4,3,"Generic acknowledgment of settings already checked, defers to DM without new guidance."
+34690,5,5,5,5,5,5,5,5,Correctly identifies the iOS 11.1.1 fix for the letter-I bug with update steps.
+2133600,1,1,2,1,1,1,2,1,Reply asks an unrelated Safari-touch question that doesn't build on the stated iOS version.
+2034901,4,2,4,3,3,2,4,3,"On-topic acknowledgment of the autocorrect symbol bug, but defers to DM rather than giving the known fix."
+2002392,3,3,3,3,3,3,3,3,Addresses the autocorrect-symbol portion of a two-part complaint but ignores the screen-freezing part.
+2422404,5,5,5,5,5,5,5,5,Directly answers 'how long until fixed' with the actual release and update steps.
+1958040,4,3,4,3,3,3,4,3,Relevant acknowledgment of the battery drain complaint.
+211247,1,1,1,1,1,1,1,1,"Reply treats this as a phishing email, unrelated to the question about reported battery-burst incidents."
+2021338,3,3,3,3,3,3,3,3,"Plausible explanation of update download time, though the message text alone is too vague to fully verify fit."
+2641019,5,5,4,5,5,5,4,5,"Gives specific, actionable steps to resolve a purchased-content playback issue."
+334118,4,3,4,3,3,3,4,3,Appropriately asks for details given the vague 'issue with iMessage' message.
+2039290,4,3,4,3,4,3,4,3,"Empathetic, relevant follow-up to the scratched-device complaint."
+2678271,2,2,3,2,2,2,3,2,Reply assumes a battery-performance issue not mentioned in the version-info fragment.
+2021945,5,4,4,4,5,4,4,4,Directly relevant clarifying question about where the black-box symbols appear.
+738533,3,3,3,3,3,3,3,3,Plausible redirect to Apple Online Store support for a verification screenshot issue.
+586933,4,4,4,4,4,4,4,4,Relevant article pointer for resetting Face ID across apps.
+2915995,5,4,4,4,5,4,4,4,Appropriately redirects a declined-payment-method issue to the billing department.
+1151823,3,2,4,3,3,2,4,3,Generic but plausible response to a forwarded/suspicious email.
+2759077,3,2,3,3,3,2,3,3,Generic continuation consistent with an ongoing DM thread fragment.
+2806689,3,3,3,3,3,3,3,3,Reasonable clarifying guess (iCloud restore) for a vague recurring popup.
+2506053,2,2,2,2,1,1,2,1,Reply's mention of checking other email folders is a non sequitur relative to the shipping-timing question.
+1877398,3,2,4,3,3,2,4,3,"Generic acknowledgment of the update complaint, doesn't address specifics."
+949694,4,3,4,4,4,3,4,4,Relevant diagnostic question distinguishing between making and receiving calls.
+242495,3,2,4,3,3,2,4,3,Generic acknowledgment of the unresponsive-apps issue without specific guidance.
+1370250,1,1,1,1,1,1,1,1,"Reply asks about deleting Music-app content, unrelated to the calendar input-lag issue described."
+403597,1,1,2,1,1,1,2,1,"Reply discusses purchasing songs in iTunes, unrelated to the bare device/OS version fragment."
+2890698,3,2,3,2,3,2,3,2,"Message is a grammar correction, not a real support request; reply's diagnostic question doesn't fit well."
+1095901,3,2,4,3,3,2,4,3,Generic continuation relevant to the charging troubleshooting already attempted.
+1407358,1,1,2,1,1,1,2,1,"Reply asks for country/region, unrelated to the widget swipe-collapse bug described."
+1358123,3,2,3,3,3,2,3,3,Asking for location is a plausible (if generic) way to check regional order availability.
+851233,4,3,4,4,4,3,4,4,Relevant offer of help with the camera-quality complaint.
+172981,1,1,2,1,1,1,2,1,"Reply asks about a storage device, unrelated to the cable power-draw warning described."
+2122511,5,4,4,5,5,4,4,5,"Consistent, relevant explanation of why restarting resolved the iCloud Photo Library sync issue."
+433128,1,1,2,1,4,4,4,4,"Reply asks if a Mac is now working correctly; message describes an ongoing iCloud download icon issue, not a Mac."
+1436710,1,1,2,1,1,1,2,1,"Reply asks about Control Center controls, unrelated to the stated lack of iTunes access."
+1125437,3,2,4,3,3,2,4,3,Generic acknowledgment of a Mac/iPhone music-sync mismatch.
+305305,3,3,3,3,3,3,3,3,Plausible diagnostic follow-up (GPS apps) continuing an ongoing troubleshooting thread.
+1329275,4,3,4,4,4,3,4,4,Relevant clarifying question about whether the app-expiry issue is app-specific.
+407067,3,3,4,3,3,3,4,3,Reasonable continuation asking for iOS version to keep troubleshooting a device-info fragment.
+1379664,3,3,3,3,3,3,3,3,Plausible continuation redirecting to Photos experts given prior unseen context.
+2028141,5,4,4,4,5,4,4,4,Correct workaround link for the letter-I autocorrect symbol bug described.
+1770778,4,3,4,4,4,3,4,4,Relevant diagnostic questions about which apps crash and iOS version.
+2064064,2,1,3,2,2,1,3,2,Asking for country doesn't build on the wifi-dropping troubleshooting already described.
+2374401,5,4,4,4,5,4,4,4,Directly relevant diagnostic question about whether the iMessage issue followed a macOS update.
+1666284,1,1,1,1,1,1,1,1,"Reply addresses phishing emails, unrelated to the purchased-song fragment."
+2549086,3,3,3,3,3,3,3,3,Generic article pointer plausibly related to background app refresh behavior.
+448412,3,2,3,3,3,2,3,3,Reasonably matches the closing/thank-you tone of the message despite the embedded complaint.
+43323,3,2,4,3,3,2,4,3,Generic acknowledgment of the battery-service question without a direct answer.
+1388857,4,3,4,3,3,3,4,3,Relevant acknowledgment of the update-related battery complaint.
+1714811,5,5,5,5,5,5,5,5,Appropriately closes out a simple thank-you message.
+867491,4,4,4,4,4,4,4,4,Relevant next-step article for a device stuck on the boot screen.
+2301459,2,1,3,2,2,1,3,2,Message is a bare typo-correction fragment with no real content to act on.
+1821392,5,4,5,4,5,4,5,4,"Correctly explains what DM means, matching the message's question."
+1142119,4,3,4,3,3,3,4,3,"Relevant clarifying questions (device, duration) given a vague 'fix this issue' message."
+1948374,5,4,4,4,5,4,4,4,Directly relevant charging-troubleshooting follow-up questions.
+1028434,3,3,3,3,3,3,3,3,Plausible troubleshooting follow-up continuing an ongoing thread.
+2896154,4,3,3,3,4,3,3,3,Points to a relevant resource for the blinking-folder boot issue.
+1537702,3,3,3,3,3,3,3,3,"Plausible continuation asking about Fetch settings, consistent with an ongoing mail-sync thread."
+397476,4,2,4,3,3,2,4,3,"Relevant acknowledgment of the subscription-cancellation error, defers to DM."
+458431,1,1,1,1,1,1,1,1,Autocorrect-bug workaround link is unrelated to the described iTunes/payment troubleshooting.
+2121633,4,3,4,4,4,3,4,4,Relevant follow-up question about iOS version for the app-crash report.
+2978789,1,1,1,1,1,1,1,1,"Reply calls this a phishing attempt; message describes a UI misalignment bug, not a suspicious message."
+430147,4,3,3,3,4,3,3,3,Reasonable follow-up question continuing the watch-face app troubleshooting.
+2438554,3,2,3,3,3,2,3,3,Plausible continuation asking for device/iOS info given the terse frequency answer.
+2121676,3,2,4,3,3,2,4,3,Generic acknowledgment of the iCloud/Outlook contact-sync frustration.
+1434352,5,4,4,4,5,4,4,4,Appropriately redirects a Final Cut Pro bug report to the relevant specialist team.
+1531055,4,3,4,4,4,3,4,4,Appropriately redirects a Photos-library display issue to the Photos team.
+1644606,4,2,4,3,3,2,4,3,"On-topic acknowledgment of the autocorrect bug, but asks for info rather than giving the known fix."
+269510,3,3,3,3,3,3,3,3,Plausible Bluetooth-focused follow-up continuing an ongoing troubleshooting thread.
+2570933,4,3,3,3,4,3,3,3,Relevant redirect to the Online Store team for an order-cancellation dispute.
+1705343,5,4,4,4,5,4,4,4,Correct workaround link for the letter-I bug described after an update.
+246316,3,2,4,3,3,2,4,3,Appropriately asks for more detail given a third-party app (WhatsApp) issue outside Apple's direct control.
+2557418,1,1,2,1,1,1,2,1,"Reply assumes the conversation is closed ('you're welcome'), but the message is asking an open question."
+2278447,5,4,4,4,5,4,4,4,Directly relevant diagnostic questions distinguishing app vs. webmail login failure.
+2676867,1,1,1,1,1,1,1,1,"Reply mentions an unrelated 'iMac audio situation', not the spam Apple ID emails described."
+749784,3,2,3,3,3,2,3,3,Plausible continuation asking about onset time for a device-info fragment.
+2291590,3,2,4,3,3,2,4,3,Generic acknowledgment of an ambiguous update/touch-issue message.
+1690473,2,2,3,2,2,2,3,2,"Message is a vague reaction, not a specific complaint; reply's generic ask is a reasonable fallback."
+2111423,4,4,4,4,4,4,4,4,Relevant next-step article for a device that won't power back on.
+2020123,4,2,4,3,4,4,4,4,"On-topic acknowledgment of the autocorrect complaint, but doesn't offer the known fix directly."
+853916,2,2,4,2,2,2,4,2,Appropriately notes the language option but doesn't address the screen-defect issue itself.
+2774335,3,3,3,3,3,3,3,3,Generic troubleshooting offer for an older-Mac compatibility complaint.
+689308,1,1,1,1,1,1,1,1,"Reply addresses Wi-Fi help, unrelated to the heating, camera flash, and screen-brightness issues described."
+1407867,5,4,4,4,5,4,4,4,Directly relevant diagnostic question about when the Mac became unresponsive.
+2903737,3,3,3,3,3,3,3,3,Reasonable generic troubleshooting step (test user account) continuing an ongoing thread.
+300623,2,2,2,2,2,2,3,2,Reply guesses at a battery-related topic with no supporting evidence from the vague message.
+1599714,4,3,3,3,4,3,3,3,Plausible workaround offer consistent with the likely autocorrect-bug context implied by tagging Twitter Support.
+2118385,5,4,4,4,5,4,4,4,Appropriately redirects a beta-related error to the Developer support team.
+2779378,4,3,4,4,4,3,4,4,Relevant Wi-Fi/Bluetooth troubleshooting resource for the described on/off behavior.
+1976565,4,2,4,3,3,2,4,3,"On-topic acknowledgment of the autocorrect symbol bug, but asks for info rather than the known fix."
+446521,4,3,4,4,4,3,4,4,Relevant next step (repair options) for the broken headphone/AirPod complaint.
+2007702,1,1,2,1,1,1,2,1,"Reply asks about Do Not Disturb and call visibility, unrelated to the general update-glitching complaint."
+1598110,5,4,4,4,5,4,4,4,"Thorough, relevant diagnostic questions for a persistent connectivity problem."
+1543327,4,2,4,3,3,2,4,3,"On-topic acknowledgment of the autocorrect symbol bug, but asks for info rather than the known fix."
+2375289,3,2,4,2,3,2,4,2,Generic acknowledgment of a detailed iMessage activation problem without engaging specifics.
+394071,4,3,4,4,4,3,4,4,Relevant article pointer for an incorrect Apple ID password issue.
+639767,4,2,4,3,3,2,4,3,"On-topic acknowledgment of a list of iOS bugs, but asks for info rather than addressing any specifically."
+1300708,5,4,4,4,5,4,4,4,"Relevant, actionable steps for the recurring WiFi-toggling complaint."
+437020,5,3,4,4,5,3,4,4,Relevant clarifying question distinguishing activation vs. send/receive iMessage issues.
+2152915,1,1,2,1,1,1,2,1,"Reply asks about Wi-Fi network connectivity, unrelated to the update-notification question asked."
+1785232,5,4,4,4,5,4,4,4,Appropriately redirects an order-honoring dispute to the Online Store team.
+853171,3,3,3,3,3,3,3,3,Generic 'future update' workaround link is plausible but not clearly confirmed for the freezing issue.
+1249461,4,3,3,3,4,3,3,3,Relevant resource offered for the inability to make/receive calls after an update.
+1111402,4,3,4,4,4,3,4,4,Appropriately redirects an Apple TV app issue to phone support.
+2002944,2,2,3,2,2,2,3,2,Message fragment is unclear; reply's generic app-update question is a reasonable fallback.
+484589,3,2,4,3,3,2,4,3,Generic acknowledgment of a vague post-iOS11 complaint.
+1181852,3,3,3,3,3,3,3,3,"Generic restart suggestion, plausible first step for a headphone accessory fragment."
+1287051,1,1,2,1,1,1,2,1,"Reply discusses future subscription changes, not the billing error the customer is actually reporting."
+1571677,5,4,4,4,5,4,4,4,Correct workaround link for the stated autocorrect-I glitch.
+707427,1,1,2,1,4,4,4,4,Message is a simple thanks; reply incorrectly assumes an ongoing unresolved issue.
+1158020,1,1,2,1,1,1,2,1,Reply misreads the bulging-screen safety question as one about iOS 11 update compatibility.
+2472935,5,4,4,4,5,4,4,4,Directly relevant article for the credit-card removal error described.
+1162071,1,1,1,1,1,1,1,1,"Reply addresses a disabled iPad, unrelated to the autocorrect symbol bug described."
+2834181,4,3,3,3,4,3,3,3,Reasonable troubleshooting step (restart) for a fix that reportedly hasn't worked yet.
+382541,3,2,3,3,3,2,3,3,"Generic troubleshooting questions for a personalized-playlist quality complaint, not clearly matched."
+1576413,5,5,5,5,5,5,5,5,Directly and correctly points to the iOS 11.1.1 autocorrect fix with backup guidance.
+874920,4,3,4,3,4,3,4,3,Relevant clarifying question about update status for the iTunes shuffle complaint.
+588070,3,3,3,3,3,3,3,3,"Generic guide reference plausible for a persistent, unspecified issue."
+2545576,4,3,4,3,3,3,4,3,Appropriately asks for specifics given the vague 'messing up' complaint.
+963474,3,2,2,2,3,2,2,2,"References 'your 6s' when the customer said iPhone 7, an inconsistency suggesting a mismatched retrieval."
+2476049,1,1,2,1,1,1,2,1,"Reply suggests updating iOS, unrelated to the App Store review-status question asked."
+1969314,2,1,3,2,2,1,3,2,Asking for country doesn't meaningfully address the recurring screen-freeze issue described.
+894334,3,2,4,3,3,2,4,3,Generic acknowledgment of the charging-behavior description.
+910437,5,4,5,5,5,4,5,5,Appropriately closes out a resolved-issue thank-you message.
+445967,3,2,4,3,3,2,4,3,"Generic acknowledgment of the temperature question, defers to DM."
+1147076,5,4,4,5,5,4,4,5,"Directly relevant, offers a concrete next step (email recovery) for the forgotten security questions."
+1365590,5,4,4,4,5,4,4,4,Relevant link addressing the specific error code mentioned in the update complaint.
+2850845,4,3,4,4,4,3,4,4,Appropriately redirects an Apple Pay checkout error to the Sales Support team.
+2680930,3,2,3,3,3,2,3,3,Generic continuation plausible for a short confirmation message.
+937451,4,3,4,4,4,3,4,4,Relevant follow-up question about duration for the app-crashing complaint.
+993353,2,2,2,2,2,2,3,2,Reply describes a Mac progress-bar scenario that doesn't clearly match a generic login-failure message.
+2111313,3,2,4,3,3,2,4,3,"Generic acknowledgment of a specific known error code, without offering the applicable fix."

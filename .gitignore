@@ -1,0 +1,10 @@
+﻿.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+data/apple_support_raw.csv
+data/apple_labeled.csv
+data/apple_reply_pairs.csv
+data/apple_reply_pairs_eval.csv
+data/apple_customer_sample_50.csv
