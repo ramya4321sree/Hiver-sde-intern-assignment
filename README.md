@@ -1,4 +1,4 @@
-# Hiver SDE Intern — AI Customer Support Agent
+# Hiver SDE Intern ï¿½ AI Customer Support Agent
 
 ## Overview
 
@@ -122,9 +122,9 @@ The taxonomy was derived from recurring themes in the Apple Support customer mes
 
 ## 3. Train and Evaluate Intent Classifiers
 
-Two lightweight baselines were evaluated:
+Three lightweight baselines were evaluated:
 
-### Baseline 1 — TF-IDF + Logistic Regression
+### Baseline 1 ï¿½ TF-IDF + Logistic Regression
 
 Accuracy on the weakly labelled dataset:
 
@@ -142,7 +142,7 @@ Run:
 
     python src/train_baseline.py
 
-### Baseline 2 — TF-IDF + Linear SVM
+### Baseline 2 ï¿½ TF-IDF + Linear SVM
 
 Accuracy on the weakly labelled dataset:
 
@@ -309,6 +309,7 @@ The major observed failure patterns include:
 2. Wrong historical example causing irrelevance
 3. Irrelevant responses
 4. Low retrieval confidence
+5. Weak historical grounding
 
 Detailed examples are available in:
 
@@ -369,26 +370,26 @@ The final implementation, intent taxonomy, evaluation design, leakage controls, 
 
     .
     +-- src/
-    ¦   +-- support_agent.py
-    ¦   +-- label_data.py
-    ¦   +-- train_baseline.py
-    ¦   +-- train_baseline_svm.py
-    ¦   +-- evaluate_classifier.py
-    ¦   +-- build_reply_pairs.py
-    ¦   +-- reply_retriever.py
-    ¦   +-- evaluate_retriever.py
-    ¦   +-- escalation.py
-    ¦   +-- evaluate_escalation.py
-    ¦   +-- failure_analysis.py
-    ¦
+    ï¿½   +-- support_agent.py
+    ï¿½   +-- label_data.py
+    ï¿½   +-- train_baseline.py
+    ï¿½   +-- train_baseline_svm.py
+    ï¿½   +-- evaluate_classifier.py
+    ï¿½   +-- build_reply_pairs.py
+    ï¿½   +-- reply_retriever.py
+    ï¿½   +-- evaluate_retriever.py
+    ï¿½   +-- escalation.py
+    ï¿½   +-- evaluate_escalation.py
+    ï¿½   +-- failure_analysis.py
+    ï¿½
     +-- data/
-    ¦   +-- golden_set_final.xlsx
-    ¦   +-- golden_predictions.csv
-    ¦   +-- retrieval_predictions.csv
-    ¦   +-- reply_quality_eval.csv
-    ¦   +-- escalation_eval.csv
-    ¦   +-- failure_analysis.csv
-    ¦
+    ï¿½   +-- golden_set_final.xlsx
+    ï¿½   +-- golden_predictions.csv
+    ï¿½   +-- retrieval_predictions.csv
+    ï¿½   +-- reply_quality_eval.csv
+    ï¿½   +-- escalation_eval.csv
+    ï¿½   +-- failure_analysis.csv
+    ï¿½
     +-- README.md
     +-- REPORT.md
     +-- DECISION_LOG.md
