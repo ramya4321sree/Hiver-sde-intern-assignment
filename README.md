@@ -1,4 +1,4 @@
-# Hiver SDE Intern � AI Customer Support Agent
+# Hiver SDE Intern — AI Customer Support Agent
 
 ## Overview
 
@@ -124,7 +124,18 @@ The taxonomy was derived from recurring themes in the Apple Support customer mes
 
 Three lightweight baselines were evaluated:
 
-### Baseline 1 � TF-IDF + Logistic Regression
+### Baseline 0 — Majority Class
+
+The most common intent was `other`.
+
+- Accuracy: 41.05%
+- Macro F1: 5.29%
+- Weighted F1: 23.90%
+
+Run:
+`python src/train_baseline_majority.py`
+
+### Baseline 1 — TF-IDF + Logistic Regression
 
 Accuracy on the weakly labelled dataset:
 
@@ -142,7 +153,7 @@ Run:
 
     python src/train_baseline.py
 
-### Baseline 2 � TF-IDF + Linear SVM
+### Baseline 2 — TF-IDF + Linear SVM
 
 Accuracy on the weakly labelled dataset:
 
@@ -370,26 +381,26 @@ The final implementation, intent taxonomy, evaluation design, leakage controls, 
 
     .
     +-- src/
-    �   +-- support_agent.py
-    �   +-- label_data.py
-    �   +-- train_baseline.py
-    �   +-- train_baseline_svm.py
-    �   +-- evaluate_classifier.py
-    �   +-- build_reply_pairs.py
-    �   +-- reply_retriever.py
-    �   +-- evaluate_retriever.py
-    �   +-- escalation.py
-    �   +-- evaluate_escalation.py
-    �   +-- failure_analysis.py
-    �
+    —   +-- support_agent.py
+    —   +-- label_data.py
+    —   +-- train_baseline.py
+    —   +-- train_baseline_svm.py
+    —   +-- evaluate_classifier.py
+    —   +-- build_reply_pairs.py
+    —   +-- reply_retriever.py
+    —   +-- evaluate_retriever.py
+    —   +-- escalation.py
+    —   +-- evaluate_escalation.py
+    —   +-- failure_analysis.py
+    —
     +-- data/
-    �   +-- golden_set_final.xlsx
-    �   +-- golden_predictions.csv
-    �   +-- retrieval_predictions.csv
-    �   +-- reply_quality_eval.csv
-    �   +-- escalation_eval.csv
-    �   +-- failure_analysis.csv
-    �
+    —   +-- golden_set_final.xlsx
+    —   +-- golden_predictions.csv
+    —   +-- retrieval_predictions.csv
+    —   +-- reply_quality_eval.csv
+    —   +-- escalation_eval.csv
+    —   +-- failure_analysis.csv
+    —
     +-- README.md
     +-- REPORT.md
     +-- DECISION_LOG.md
