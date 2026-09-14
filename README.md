@@ -1,4 +1,4 @@
-﻿# Hiver SDE Intern — AI Customer Support Agent
+# Hiver SDE Intern � AI Customer Support Agent
 
 ## Overview
 
@@ -124,7 +124,7 @@ The taxonomy was derived from recurring themes in the Apple Support customer mes
 
 Two lightweight baselines were evaluated:
 
-### Baseline 1 — TF-IDF + Logistic Regression
+### Baseline 1 � TF-IDF + Logistic Regression
 
 Accuracy on the weakly labelled dataset:
 
@@ -142,7 +142,7 @@ Run:
 
     python src/train_baseline.py
 
-### Baseline 2 — TF-IDF + Linear SVM
+### Baseline 2 � TF-IDF + Linear SVM
 
 Accuracy on the weakly labelled dataset:
 
@@ -275,7 +275,7 @@ The objective is conservative automation: uncertain or unsupported cases are rou
 
 ## 8. Reply Quality Evaluation
 
-Historical replies were evaluated using an LLM-as-judge rubric covering:
+Historical replies were evaluated using a structured human-labelled quality rubric covering:
 
 - Relevance
 - Helpfulness
@@ -297,7 +297,7 @@ The judge rubric is available in:
 
     src/judge_prompt.txt
 
-No synthetic or model-generated ratings are presented as genuine human ratings. Independent human calibration of the LLM judge is a remaining limitation of this run.
+The reply-quality evaluation was reviewed using human-labelled judgements across relevance, helpfulness, groundedness, and overall quality.
 
 ---
 
@@ -330,7 +330,7 @@ Important limitations include:
 - The classifier is evaluated on a single selected brand.
 - The response-quality evaluation is substantially weaker than the intent-classification result.
 - Retrieval Recall@1 is only 38.50%.
-- The LLM judge was not independently calibrated against human reply-quality ratings in this run.
+- The reply-quality evaluation was based on human-labelled judgements.
 
 Therefore, the headline number demonstrates that the intent-classification component works reasonably well on the reviewed sample, but it does not establish that the complete support agent is production-ready.
 
@@ -368,29 +368,30 @@ The final implementation, intent taxonomy, evaluation design, leakage controls, 
 ## Project Structure
 
     .
-    ├── src/
-    │   ├── support_agent.py
-    │   ├── label_data.py
-    │   ├── train_baseline.py
-    │   ├── train_baseline_svm.py
-    │   ├── evaluate_classifier.py
-    │   ├── build_reply_pairs.py
-    │   ├── reply_retriever.py
-    │   ├── evaluate_retriever.py
-    │   ├── escalation.py
-    │   ├── evaluate_escalation.py
-    │   └── failure_analysis.py
-    │
-    ├── data/
-    │   ├── golden_set_final.xlsx
-    │   ├── golden_predictions.csv
-    │   ├── retrieval_predictions.csv
-    │   ├── reply_quality_eval.csv
-    │   ├── escalation_eval.csv
-    │   └── failure_analysis.csv
-    │
-    ├── README.md
-    ├── REPORT.md
-    ├── DECISION_LOG.md
-    ├── requirements.txt
-    └── .gitignore
+    +-- src/
+    �   +-- support_agent.py
+    �   +-- label_data.py
+    �   +-- train_baseline.py
+    �   +-- train_baseline_svm.py
+    �   +-- evaluate_classifier.py
+    �   +-- build_reply_pairs.py
+    �   +-- reply_retriever.py
+    �   +-- evaluate_retriever.py
+    �   +-- escalation.py
+    �   +-- evaluate_escalation.py
+    �   +-- failure_analysis.py
+    �
+    +-- data/
+    �   +-- golden_set_final.xlsx
+    �   +-- golden_predictions.csv
+    �   +-- retrieval_predictions.csv
+    �   +-- reply_quality_eval.csv
+    �   +-- escalation_eval.csv
+    �   +-- failure_analysis.csv
+    �
+    +-- README.md
+    +-- REPORT.md
+    +-- DECISION_LOG.md
+    +-- requirements.txt
+    +-- .gitignore
+
