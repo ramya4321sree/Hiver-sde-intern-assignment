@@ -275,7 +275,7 @@ The objective is conservative automation: uncertain or unsupported cases are rou
 
 ## 8. Reply Quality Evaluation
 
-Historical replies were evaluated using a structured human-labelled quality rubric covering:
+Historical replies were evaluated using a structured quality rubric covering:
 
 - Relevance
 - Helpfulness
@@ -297,7 +297,7 @@ The judge rubric is available in:
 
     src/judge_prompt.txt
 
-The reply-quality evaluation was reviewed using human-labelled judgements across relevance, helpfulness, groundedness, and overall quality.
+The reply-quality evaluation used consistent criteria across relevance, helpfulness, groundedness, and overall quality.
 
 ---
 
@@ -331,7 +331,7 @@ Important limitations include:
 - The classifier is evaluated on a single selected brand.
 - The response-quality evaluation is substantially weaker than the intent-classification result.
 - Retrieval Recall@1 is only 38.50%.
-- The reply-quality evaluation was based on human-labelled judgements.
+- The reply-quality evaluation is weaker than the intent-classification evaluation and should be treated as a diagnostic.
 
 Therefore, the headline number demonstrates that the intent-classification component works reasonably well on the reviewed sample, but it does not establish that the complete support agent is production-ready.
 
